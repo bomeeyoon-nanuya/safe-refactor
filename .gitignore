@@ -1,0 +1,21 @@
+# deps
+node_modules/
+
+# yarn berry
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# build & tests
+dist/
+.playwright/
+playwright-report/
+test-results/
+coverage/
+
+# env & misc
+.env
+.DS_Store
